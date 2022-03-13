@@ -148,7 +148,7 @@ o = s:taboption("settings", Value, "github_address_mod", font_red..bold_on..tran
 o.description = translate("Modify The Github Address In The Config And OpenClash With Proxy(CDN) To Prevent File Download Faild. Format Reference:").." ".."<a href='javascript:void(0)' onclick='javascript:return winOpen(\"https://ghproxy.com/\")'>https://ghproxy.com/</a>"
 o:value("0", translate("Disable"))
 o:value("https://cdn.jsdelivr.net/")
-o.default = "0"
+o.default = "https://cdn.jsdelivr.net/"
 
 o = s:taboption("settings", Value, "delay_start", translate("Delay Start (s)"))
 o.description = translate("Delay Start On Boot")
